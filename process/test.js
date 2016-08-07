@@ -6,6 +6,7 @@ export function TestStart(data, done) {
 
 export function TestTask(data, done) {
   console.log('TestTask ', data);
+  this.setProperty('prop1', `${Date.now()}`); 
   done(data);
 }
 
