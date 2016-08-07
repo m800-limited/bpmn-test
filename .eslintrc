@@ -1,0 +1,16 @@
+{
+  "extends": "eslint-config-airbnb",
+  "parser": "babel-eslint",
+  "globals": {
+    "If": true,
+    "Else": true,
+    "$": true,
+    "browser": true
+  },
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+    "max-len": 1
+  }
+}
